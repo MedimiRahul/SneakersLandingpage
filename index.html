@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <!-- navigation bar starts here  -->
+
+    <div class="maincontainer">
+      
+      <!-- this div is used when we click big image to see in zoom level -->
+
+
+      <div class="newdiv">
+           <div class="shoeboxoff">
+            <img src="images/icons8-cross-30.png" class="cross"  alt="" srcset="">
+            <img src="images/image-product-1.jpg" alt="" class="bigimageon">
+            <ul class="stripimagelist newstrip">
+              <li class="newdivstripimagelistitem">
+                <img
+                  src="/images/image-product-1-thumbnail.jpg"
+                  class="stripimagelistitemimg"
+                  alt=""
+                />
+              </li>
+              <li class="newdivstripimagelistitem">
+                <img
+                  src="images/image-product-2-thumbnail.jpg"
+                  class="stripimagelistitemimg"
+                  alt=""
+                />
+              </li>
+              <li class="newdivstripimagelistitem">
+                <img
+                  src="images/image-product-3-thumbnail.jpg"
+                  class="stripimagelistitemimg"
+                  alt=""
+                />
+              </li>
+              <li class="newdivstripimagelistitem">
+                <img
+                  src="images/image-product-4-thumbnail.jpg"
+                  class="stripimagelistitemimg"
+                  alt=""
+                />
+              </li>
+            </ul>
+            
+           </div>
+      </div>
+       
+      <!-- newdiv closes  -->
+
+
+      <!-- hambergermenu block opens here  -->
+
+      <div class="backgroundblackdivoff"></div>
+      <div class="hamburgermenu">
+        <img src="images/icons8-cross.png" alt="" class="hamburgercross">
+        <ul class="hambergermenulist">
+          <li class="hambergermenulistitem">Collections</li>
+          <li class="hambergermenulistitem">Men</li>
+          <li class="hambergermenulistitem">Women</li>
+          <li class="hambergermenulistitem">About</li>
+          <li class="hambergermenulistitem">Contact</li>
+        </ul>
+     </div>
+
+     <!-- hamburgermenu closes here  -->
+
+      <div class="nav">
+        <div class="cat1">
+          <div class="categories">
+            <img src="/images/icons8-hamburger-menu-24.png" class="menu"   alt="" class="s">
+            <img src="images/logo.svg" alt="logo" class="logoimg" />
+            <div class="contents">
+              <ul class="contentlist">
+                <l1 class="contentlistitem">Collection</l1>
+                <l1 class="contentlistitem">Men</l1>
+                <l1 class="contentlistitem">Women</l1>
+                <l1 class="contentlistitem">About</l1>
+                <l1 class="contentlistitem">Contact</l1>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cat2">
+          <div class="cartprofile">
+            <img src="images/icon-cart.svg" class="cartimg" alt="" srcset="" />
+            <img
+              src="images/image-avatar.png"
+              class="profileimg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- navigation bar ends here   -->
+
+
+      <!-- main section starts here  -->
+
+    <div class="cartboxoff">
+      <h3 class="cartheading">Cart</h3>
+      <div class="nonemptycart">
+        <div class="cartaddeditems">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="addedimg">
+        <p class="addedpara"></p>
+        <img src="images/icons8-delete-24.png" class="removefromcart" alt="">
+        </div>
+      <div class="checkout"><a href="#" class="checkoutbtn">checkout</a></div>
+    </div>
+      
+      <div class="emptycart">
+        <h3 class="emptycartbio">Cart is empty</h3>
+      </div>
+    </div>
+
+      <div class="mainsection">
+        
+        <div class="section">
+          <div class="shoeimage">
+            <div class="bigimage">
+              <img
+                src="images/image-product-1.jpg"
+                class="bigimageimg"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="stripimage">
+              <ul class="stripimagelist">
+                <li class="stripimagelistitem" >
+                  <img
+                    src="images/image-product-1-thumbnail.jpg"
+                    class="stripimagelistitemimg" id="img1"
+                    alt=""
+                  />
+                </li>
+                <li class="stripimagelistitem" >
+                  <img
+                    src="images/image-product-2-thumbnail.jpg"
+                    class="stripimagelistitemimg" id="img2"
+                    alt=""
+                  />
+                </li>
+                <li class="stripimagelistitem" >
+                  <img
+                    src="images/image-product-3-thumbnail.jpg"
+                    class="stripimagelistitemimg" id="img3"
+                    alt=""
+                  />
+                </li>
+                <li class="stripimagelistitem" >
+                  <img
+                    src="images/image-product-4-thumbnail.jpg"
+                    class="stripimagelistitemimg" id="img4"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="shoebio">
+            <h2 class="shoeheading">Sneaker Company</h2>
+            <h2 class="shoemaindescription">Fall Limited Edition Sneakers</h2>
+            <p class="shoepara">
+              These low-profile sneakers are your perfect casual wear
+              companion.Featuring a durable rubber outer sole. they'll withstand
+              everything the weather can offer.
+            </p>
+            <div class="actualcostbox">
+              <h2 class="actualcost">$125.00</h2>
+              <div class="off">50%</div>
+            </div>
+            <div class="reducedcost">$250.00</div>
+            <div class="cartbox">
+              <div class="counterbox">
+                <div class="minus"><img src="images/icon-minus.svg" class="minusimg" alt="" srcset=""></div>
+                <p class="digits"></p>
+                <div class="plus"><img src="images/icon-plus.svg" class="plusimg"  alt="" srcset=""></div>
+              </div>
+              <div class="addcart">
+                <img src="images/icon-cart.svg" class="cart"  alt="" srcset="">
+                <a 
+                 class="addcartbtn" href="#">Add to Cart</a>
+                </div>
+
+                </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- main section ends here  -->
+  </div>
+  </body>
+  <script src="index.js"></script>
+</html>
