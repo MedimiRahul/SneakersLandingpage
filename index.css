@@ -633,6 +633,10 @@ html{
             width: 100%;
             height: 5rem;
         }
+        & .addcart{
+            margin-bottom: 2rem;
+        }
+
 
       }
       
@@ -734,6 +738,10 @@ html{
             width: 100%;
             height: 5rem;
         }
+         & .addcart{
+            margin-bottom: 2rem;
+        }
+  
 
       }
       
